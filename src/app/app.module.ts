@@ -9,6 +9,9 @@ import { Home2Component } from './home/home2/home2.component';
 import { LeftAd1Component } from './home/home1/left-ad1/left-ad1.component';
 import { RightAd1Component } from './home/home1/right-ad1/right-ad1.component';
 import { MidContent1Component } from './home/home1/mid-content1/mid-content1.component';
+import { MidContent2Component } from './home/home2/mid-content2/mid-content2.component';
+import { LeftAd2Component } from './home/home2/left-ad2/left-ad2.component';
+import { RightAd2Component } from './home/home2/right-ad2/right-ad2.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { MidContent1Component } from './home/home1/mid-content1/mid-content1.com
     Home2Component,
     LeftAd1Component,
     RightAd1Component,
-    MidContent1Component
+    MidContent1Component,
+    MidContent2Component,
+    LeftAd2Component,
+    RightAd2Component
   ],
   imports: [
     BrowserModule
