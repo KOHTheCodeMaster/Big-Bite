@@ -1,0 +1,24 @@
+.food-thumbnail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food-thumbnail .card {
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.food-thumbnail .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.food-thumbnail .card-title {
+  margin-top: 10px;
+}
